@@ -34,6 +34,9 @@ class ConfigurationJson():
 		else:
 			return False
 
+	def get(self, reponame):
+		return self.content[reponame], reponame
+
 	def remove_repo(self, reponame):
 		self.load()
 		if reponame in self.content:
