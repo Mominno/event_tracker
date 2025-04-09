@@ -16,7 +16,8 @@ class ConfigurationJson():
 			with open(CONFIG_NAME, 'r') as f:
 				self.content = json.load(f)
 		else:
-			open(CONFIG_NAME, mode='w').write("{}").close()
+			with open(CONFIG_NAME, mode='w') as f:
+				f.write("{}")
 			self.content = {}	 
 
 	def save_to_file(self):

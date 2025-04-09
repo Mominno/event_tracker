@@ -8,7 +8,7 @@ How to run:
 1] Get GitHub token, save it as 'token' root directory. (Next to this file.)
 2a] Create virtual env or install into root python install from requirements.txt
 2b] ```pip install -r requirements.txt```
-3] DEBUG: for debug mode run ```python -m source.main```
+3] DEBUG: for debug mode run from root dir ```python -m source.main```
 4] For production use ```gunicorn 'source.main:get_app()' ```
 
 
