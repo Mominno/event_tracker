@@ -26,7 +26,7 @@ gunicorn 'source.main:get_app()'
 
 User API:
 
-1) Get mean time between event of select type for repo
+1) Get mean time in seconds between event of select type for repo
 endpoint: /<reponame>/<_type>
 type: GET
 example curl:
