@@ -5,7 +5,7 @@ Simple caching utility for viewing mean time between events for GitHub repositor
 
 ## How to run:
 
-1] Get GitHub token, save it as 'token' root directory. (Next to this file.)
+1] Get GitHub token, save it as `token` root directory. (Next to this file.)
 2a] Create virtual env or install into root python install from requirements.txt
 2b]
 ```
