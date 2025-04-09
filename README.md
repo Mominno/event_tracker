@@ -67,9 +67,10 @@ example curl:
 curl -X POST localhost:5000/admin/remove_repo/<reponame>
 ```
 Admin api responses have the same format
+```
 {
 'msg': str,
 'status': str,
 'code': int,
 }
-
+```
